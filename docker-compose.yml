@@ -1,0 +1,10 @@
+version: '3.7'
+services:
+
+  maternia-php:
+    container_name: maternia-php
+    build: ./docker/php
+    ports:
+      - "9000:9000"
+    volumes:
+      - ./:/var/www/:cached
