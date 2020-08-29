@@ -10,4 +10,4 @@ Using Docker.
 
 2) Run: `docker-compose up -d --build`
 
-3) Run composer `docker-compose exec news-parser-php composer install`
+3) Run composer `docker-compose exec maternia-php composer install`
